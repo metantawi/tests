@@ -1,0 +1,65 @@
+.c-white {
+  color: white;
+}
+.c-main {
+  color: var(--main-color);
+}
+.btn-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.d-flex {
+  display: flex;
+}
+.d-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  gap: 20px;
+}
+.d-block {
+  display: block;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+.pt-200 {
+  padding-top: 200px;
+}
+.pb-200 {
+  padding-top: 200px;
+}
+.a-center {
+  align-items: center;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+@media (max-width:767px) {
+.flex-column {
+  flex-direction: column;
+}
+.gap-20 {
+  gap: 20px;
+}
+.m-a-start {
+  align-items: start;
+}
+.m-a-center {
+  text-align: center;
+}
+.m-d-none {
+  display: none;
+}
+.m-d-flex {
+  display: flex;
+}
+.m-mb-20 {
+  margin-bottom: 20px;
+}
+}
+
+
